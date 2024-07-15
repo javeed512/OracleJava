@@ -1,0 +1,22 @@
+package com.datatypes;
+
+public class DataTypesExample {
+
+	public static void main(String   []args) {
+		
+		
+		byte  b = (byte)  130; // 1 byte
+		
+		System.out.println("Byte value "+b);
+		
+		int i = 10 ;
+		
+		short s = (short)  50000;
+		
+		System.out.println("Short value "+s);
+		
+		
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.datatypes;
+
+public class DataTypesExample {
+
+	public static void main(String   []args) {
+		
+		
+		byte  b = 50; // 1 byte
+		
+		System.out.println("Byte value "+b);
+		
+		int i = 10 ;
+		
+		
+
+	}
+
+}
