@@ -1,0 +1,26 @@
+package com.datatypes;
+
+public class Demo {
+	
+		String city = "Mumbai";
+
+	public static void main(String[] args) {
+	
+
+		int  sid = 101;
+	
+		String sname = new  String("raju");
+		
+		System.out.println(sid);
+		System.out.println(sname);
+		
+	   Demo d =	new  Demo();
+		
+		
+	}
+	
+	
+
+	
+
+}

@@ -1,0 +1,33 @@
+package com.datatypes;
+
+public class SwitchCaseDemo {
+
+	public static void main(String[] args) {
+
+		String menuItem = "tea";
+
+		switch (menuItem) {
+		case "tea":
+
+			System.out.println("You order Tea");
+
+		case "coffee":
+
+			System.out.println("You order Coffee");
+
+		case "milk":
+
+			System.out.println("You order Milk");
+
+			break;
+
+		default:
+
+			System.out.println("Invalid Order");
+
+			break;
+		}
+
+	}
+
+}

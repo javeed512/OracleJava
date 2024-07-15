@@ -1,0 +1,163 @@
+
+
+Java
+
+1.JSE - Java Standard Edition (core java)
+Using JSE  we can develop  Desktop Application / Standalone Application
+Ex: Notepad,IDEs , Paint , Ms Office , Softwares for Electronic devices
+
+2.JEE - Java Enterprise Edition (advance java)
+spring , spring boot, web services,microservices
+
+This is used to develop Web Applications
+Ex: Any Website ,OU Connect , Amazon , Flipkart , Google,Facebook 
+
+
+3.JME - Java Micro/Mobile Edition 
+ This is used to develop mobile apps or apps for devices
+ 
+demo.c
+------
+main()
+{
+
+printf("hello");
+
+}
+
+
+
+
+
+
+Demo.java
+----------
+import java.lang.*;
+
+public class  Demo{
+
+	public static void main(String  ar[]){
+
+		System.out.println("Hello World");
+
+	}
+
+
+
+}
+ 
+
+
+Java Naming Convections:
+------------------------
+packages:  lower case
+Ex:   mypackage  , com.oracle.demo  , pack1 
+
+syntax:  domain.company.project.module
+     com.oracle.metro.ticketbooking.customer
+
+ex:  java.lang , java.util  , java.io  
+
+
+Classes/Interface/Enums
+
+InitCap:   
+Ex:  Demo  , Student , AccountDetails , UserService 
+     Object , String , System , Scanner , Integer 	
+
+
+Constructors:
+ Constructor name will be same as class name.  Only classes will have constructor
+  Student()  , String()
+
+
+variables (or) methods:
+
+camel-case
+
+Variables Ex:  account , accountNumber , studentResult , bankBalance$
+		machineID_123;
+
+Methods/Functions Ex:
+   add()  ,  addNumbers() , get()  , getAll()
+   print()  , toString() , main()
+
+
+final variables:
+
+BLOCK LETTERS
+
+Ex:  PI , IFSC , ACCOUNT_TOKEN	
+
+
+Special charactors:
+
+
+ 1. $  2. _ 
+
+
+Note: In Java by default Object class is the parent/super class for all java classes
+
+
+
+
+primitive data types:
+
+byte   --> 1 byte
+short  --> 2 bytes
+int   ---> 4 bytes
+long  ---> 8 bytes
+float  ---> 4 bytes
+double  ---> 8 bytes
+char    --->  2 bytes
+boolean  ---> 1 bit (true / false)
+
+
+
+int x ;
+
+boolean b ;
+
+char  c = 'A';
+
+
+Non-primitive or Reference  data types
+
+String s1;  null
+
+Demo  d = new  Demo();
+
+Object o ; // null
+
+Note: Default value for reference variables  is null.
+
+
+
+
+byte  -- 8 bits--> -2pow7  to (+2pow7)  -1
+	   -128  to  127	
+
+short ---> 16bits --->  -2pow15  to  +2pow15  -1
+
+
+
+
+
+block
+{
+
+
+
+}
+
+OR  AND  NOT
+||  &&   !=  
+
+
+boolean b = true;
+
+   System.out
+
+
+
+

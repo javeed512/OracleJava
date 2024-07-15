@@ -1,0 +1,36 @@
+package com.datatypes;
+
+public class Demo {
+	
+		int  cid = 10;
+		String city = "Mumbai";  // instance variables
+
+	public static void main(String[] args) {
+	
+
+		int  sid = 101;   // local variables
+	
+		String sname = new  String("raju");
+		
+		System.out.println(sid);
+		System.out.println(sname);
+		
+	   Demo d =	new  Demo();
+		
+		
+	}
+	
+	public void   getData() {
+			boolean isValid = true;
+		
+		System.out.println("cid "+cid);
+		System.out.println("city "+city);
+		
+		
+	}
+	
+	
+
+	
+
+}

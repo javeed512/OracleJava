@@ -1,0 +1,15 @@
+package com.datatypes;
+
+public class Demo {
+
+	public static void main(String[] args) {
+	
+
+		int  sid = 101;
+		
+		
+		String sname = new String("javeed");
+		
+	}
+
+}

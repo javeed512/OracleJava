@@ -1,0 +1,42 @@
+package com.datatypes;
+
+public class DataTypesExample {
+
+	public static void main(String[] args) {
+
+		byte b = (byte) 130; // 1 byte
+
+		System.out.println("Byte value " + b);
+
+		int amount = 5000;
+		
+		System.out.println(amount);
+		
+
+		short s = (short) 50000;
+
+		System.out.println("Short value " + s);
+
+		float f1 = 4.55999F;
+		System.out.println("Float value " + f1);
+
+		double d = 5.999;
+
+		System.out.println("Double value " + d);
+
+		char c = 'A';
+
+		System.out.println("Char value " + c);
+
+		boolean bl = false;
+
+		String s1 = null;
+
+		System.out.println(Short.SIZE);
+
+		System.out.println(Integer.MIN_VALUE);
+		System.out.println(Integer.MAX_VALUE);
+
+	}
+
+}

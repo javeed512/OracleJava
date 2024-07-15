@@ -1,0 +1,13 @@
+package com.datatypes;
+
+public class ForLoop {
+	
+	
+	public static void main(String[] args) {
+		
+		String  names = {"tom","smith","raju","ford","king"};
+		
+		
+	}
+
+}

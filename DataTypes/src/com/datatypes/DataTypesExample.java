@@ -8,7 +8,10 @@ public class DataTypesExample {
 
 		System.out.println("Byte value " + b);
 
-		int i = 10;
+		int amount = 5000;
+		
+		System.out.println(amount);
+		
 
 		short s = (short) 50000;
 
@@ -33,7 +36,16 @@ public class DataTypesExample {
 
 		System.out.println(Integer.MIN_VALUE);
 		System.out.println(Integer.MAX_VALUE);
-
+		
+		boolean isValid = true;
+		
+		System.out.println(5 + 3);
+		System.out.println("5>3 " + (5 > 3) );
+		System.out.println("5<3 " + (5 < 3) );
+		System.out.println("5==3" +(5 == 3));
+		System.out.println(!isValid);
+		
+			
 	}
 
 }
