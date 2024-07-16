@@ -27,7 +27,7 @@ java.lang.Object;
 public class Object {
 
 
-	public Object(){
+	public Object(){  // super();
 
 		// logic to create object
 		// logic to generate code
@@ -112,6 +112,13 @@ import  pkg1;
 		
 	
 }
+
+
+
+
+
+
+
 
 
 
