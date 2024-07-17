@@ -1,0 +1,96 @@
+String APIs
+
+
+
+String  is  a class:
+
+
+String: Sequence of characters , enclosed with in double quotes
+Ex:  "hello" , "abc123" , "ABCabc" , "1234" , "@#$%&*("
+
+In  C-Language  , string is represented as char[]  array.
+
+In Java we have a class known as String  to handle string values.
+
+
+class Object{
+
+	toString() --->return hashcode
+	equals()  ---> compare hashcode/reference of two objects
+
+
+}
+
+
+class  String  extends Object{
+
+	toString() ---> return string value
+	equals()  --->  compare data / values
+
+}
+
+Note: to compare hashcodes of two string objects we can use == opertor.
+
+
+
+String :
+
+methods 
+1. concat()
+2. equals()
+3. upperCase()
+4. lowerCase()
+5. length()
+6. toString()
+7.  compareTo()
+
+
+String objects can be created in 2 different ways:
+
+
+1.  Using literals
+
+	String  s1 =  "hello";
+
+	String  s2 =  "hello";
+
+	String  s3  = "hello";
+
+2.  Using new Operator
+
+	String   str1  = new String("java");
+	String   str2  = new String("java");
+
+
+Note: String objects are Immutable in nature (which cannot be change or modify)
+
+
+
+
+
+In real time when ever we want to work with string values which need to be modify frequently then we use
+StringBuffer or StringBuilder  classes.
+
+Because both to them are Mutable in nature.
+
+StringBuilder and StringBuffer
+
+methods:
+append()
+reverse()
+replace()
+length()
+capacity()
+insert()
+delete()
+
+Note: StringBuffer is ThreadSafe 
+
+
+
+
+
+
+
+
+

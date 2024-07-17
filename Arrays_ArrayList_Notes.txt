@@ -1,0 +1,77 @@
+
+int sid1 = 101;
+int sid2  = 102;
+:::
+::
+int sid10  = 110;
+
+
+Arrays:
+-------
+Collection of similar types of elements.
+
+ int  arr[] = {101,102,103,104,105};
+
+
+ arr[] = {101,4.5,"javeed"}; // invalid
+
+	int  a1[] = new int[10000];  // 40,000 bytes
+
+
+Limitations:
+-> Array size cannot be increase or decrease at runtime its always fixed.
+-> Arrays allows only homogenous elements but not heterogenous elements
+-> Type casting is also difficult.
+
+
+
+Collections 
+java.util.*;
+In Java collections are container objects which can be used to store homogenous or heterogenous elements/objects.
+->Collections  size can be dynamically increase at runtime.
+-> All collections in java uses different data structures.
+
+
+Examples:  List,Set,Map,Tree,Hashtable 
+
+
+List:
+In Java List is a collection introduce to store  duplicate elements which can same or different.
+
+
+
+
+java.util.*;
+
+
+interface  Collection{
+
+	// abstract methods  10
+
+}
+
+interface  List  extends  Collection{
+
+	//abstract methods  5
+
+}
+
+
+public class ArrayList  implements  List{
+
+	//  implemeted methods are 15
+
+
+
+}
+
+
+
+	List<String>   list = new ArrayList<String>();
+
+
+
+
+
+
+
