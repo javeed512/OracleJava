@@ -1,0 +1,111 @@
+ 
+interface  IBank{
+
+	public static void  creditCard(){  // Java8
+
+		//logic to very card
+	}
+
+	public default void  NEFT(){ // Java8
+
+		// logic to do NEFT;
+	}
+
+	
+	void withdraw();
+	void  deposit();	
+	void fundTransfer();
+	void billPayment();
+
+
+
+}
+
+class  HDFC  implements IBank{
+
+		IBank.creditCard();
+
+		HDFC h = new HDFC();
+		h.NEFT();
+
+}
+
+class  SBI  implements IBank{
+
+    IBank.creditCard();
+
+}
+
+class  Phonepe {
+
+	IBank.creditCard();
+
+	Phonepe p = new Phonepe();
+
+	p.NEFT(); // not possible
+
+}
+
+
+
+
+
+Java-8 Features:
+
+1.static and default methods in interfaces
+2. Functional interface
+3. Lambda Expression  ()->{}
+4. Stream API
+5. java.time package  (Date and Time)
+6. method reference(::)
+7. Optional
+
+
+      Optional<Employee>   getObject(){
+		
+		return    getEmp(); // new Employe(); or null
+
+	}
+
+	Optional<Employee> optional =	getObject();
+
+	optional.get(); ---> emp obj
+
+Types of Functional Interfaces:
+--------------------------------
+1. Consumer Functional interface
+
+	public abstract   void  setData(String name);
+
+2. Supplier Functional interface
+		
+	public  abstract  int   getData();
+	
+
+3. Predicate Functional interface
+
+	public abstract   boolean  isValid(String data);
+
+
+4. Function  Funtional interface
+
+	public  abstract   int   add(int a, int b);
+
+
+
+
+Lambda Expression Types:
+1. Consumer Lambda Expression
+2. Supplier Lambda Expression
+3.  Predicate  Lambda Expression
+4.  Function Lambda Expression
+
+
+
+
+
+
+
+
+
+
