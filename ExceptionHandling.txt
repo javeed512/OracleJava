@@ -1,0 +1,147 @@
+Exception: An event occur at runtime which terminates program flow abnormally.
+-> If we handle exception then normal termination will take place.
+
+Java Exception  import keywords:
+
+1. throws
+It is used to throws Exceptions from callee method to the caller method.
+Ex: 
+    public static  int  div(int a, int b)throws ArithmeticException{ // callee
+
+
+            return a / b;       
+    }
+
+2. try-catch-finally
+
+try block: we write risky code (code responsible for exception) in try block 
+     It executes always.
+catch block: it is used to catch exception which is throws by try block.
+     It executes if and only if exception occur in try block.
+
+finally: it is used to write some mandatory code in real time like 
+	closing file , closing database connection , cleaning memory , logout
+     It executes always irrespective of exception occur or not.
+
+Note: we can have nesting of try-catch-finally
+  try{
+	try{
+
+	}
+	catch(){}
+	finally{}
+
+
+   }
+  catch(){
+
+	try{
+
+	}
+	catch(){}
+	finally{}
+
+
+	}
+ finally{
+	try{
+
+	}
+	catch(){}
+	finally{}
+
+
+
+
+	}
+
+
+In Java Exceptions are of 2 types:
+
+1. Checked Exception / Compiletime Exception
+Checked Exception can be detected by compiler at compile time so that user can take necessary action by
+writing try-catch
+ 
+Ex: InterruptedException , IOException , SQLException , FileNotFoundException
+
+2. Unchecked Exception / Runtime Exception
+Unchecked Exception cannot be detected by compiler , whenever they occur user will get to know.
+
+Ex: ArithmeticException , NullPointerException , IndexOutOfBoundException 
+
+Note: RuntimeException class is the parent of all the Unchecked/Runtime exceptions.
+  So RuntimeException and all its childrens are known as unchecked exceptions in java.
+
+
+throw:
+======
+This keyword is used to throw any exception manually or explicitly.
+
+  throw 	new ArithmeticException();
+
+
+User Defined Exception:
+
+1. Create Custom Exp class
+2. throw Custom Exp obj as Exception
+3. Handle EXp using try-catch
+
+step1:
+------
+class   LowBalanceException  extends Exception  {  //Checked Exception
+
+    public LowBalanceException(String msg){
+
+            super(msg);
+
+    }
+
+
+}
+
+(OR)
+
+
+
+class   LowBalanceException  extends RuntimeException{  //UnChecked Exception
+
+
+
+
+}
+
+step2:
+------
+Throw above exception any where as per requirement in your application.
+
+  sample code:
+
+	throw new LowBalanceException("some error msg");
+	
+step3:
+
+Hanle above exception using try catch finally
+
+	try{
+	throw new LowBalanceException("some error msg");
+	}
+	catch(LowBalanceException le){
+
+		System.err.println("custom msg for end user");
+
+		le.printStackTrace(); // print exp info along with method names and line numbers
+
+		System.err.println(le.getMessage()); // print only msg given in constructor
+		
+	}
+
+
+
+
+
+
+
+
+
+
+ 
