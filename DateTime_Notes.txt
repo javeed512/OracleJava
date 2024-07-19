@@ -1,0 +1,19 @@
+old java:
+java.util.Date; // deprecated or removed
+
+
+
+In Java-8
+----------
+java.time.*; (DateTime API)
+
+LocalDate.now();  or  LocalTime.now();   or LocalDateTime.now();
+
+getXxx();
+
+plusXX();
+
+minusXX();
+
+isXX();
+
